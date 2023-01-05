@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: 'Bebas Neue', cursive
+}
+.header{
+    background-color: rgb(6, 120, 158);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    margin-left: 30px;
+}
+
+
+.heading , .headlings, .right{
+    border: 1px solid black;
+}
+
+.top{
+    margin: 30px;
+    display: flex;
+}
+
+.topHeadlines{
+    margin: 10px;
+    width: 20%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.headlings{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.headlings>#titles{  
+    margin-top: 3px;
+    margin-left: 10px;
+ 
+}
+
+.headlings>a{
+    margin-top  : 7px;
+    color: black;   
+}
+
+.headlings>a:hover{
+    color: red;
+}
+
+.right{
+    width: 70%;
+    margin: 10px;
+    text-align: center;
+}
+
+.listing{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    height: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: 4px solid green;
+}
+
+.img{
+    height: 100px;
+    width: 150px;
+    background-color: aquamarine;
+}
+
+.body{
+    margin: 3px;
+    text-align: center;
+}
+
+.read{
+    font-style: italic;
+}
+
+.sizing{
+    height: 100px;
+    width: 150px;
+}
+
+.title{
+    color: red;
+}
